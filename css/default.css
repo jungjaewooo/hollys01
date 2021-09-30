@@ -1,0 +1,40 @@
+@charset 'utf-8';
+
+*,a{color:#333;}
+
+/* skip style */
+.skip-menu a{padding:10px 12px;background-color:#000;font-weight:700;font-size:32px;color:#fff;position:fixed;left:1em;top:-100px;z-index:9999;}
+.skip-menu a:focus{top:0;}
+.wrapper{
+overflow:hidden;
+}
+/* header style */
+.header{background-color:#b5121b;position:relative;}
+.header .container{height:44px;}
+.startup{position:fixed;left:0.5em;top:7px;z-index:9998;border-radius:20px;padding:4px 8px;background-color:#c5a46e;}
+.startup a{color:#fff;}
+.logo{float:left;padding-top:10px;padding-left:40%;}
+.logo img{width:100px;}
+.btn-nav{float:right;padding-top:6px;padding-right:0.5em;cursor:pointer;}
+.btn-nav span{display:block;width:22px;height:3px;margin:6px 0;background-color:#fff;text-indent:-99999px;}
+.nav{position:absolute;left:0;right:0;top:100%;z-index:9997;background-color:#424242;overflow:hidden;display:none;}
+.nav ul{padding:0.5em;}        
+.nav li{margin:0.5em 0;font-size:14px;}        
+.nav a{color:#fff;}
+.nav .sub-nav{position:absolute;top:0;left:50%;right:0;padding:0.5em;background-color:#999;overflow:hidden;display:none;}
+
+/* footer style */
+.footer .container{padding:0.5em 0 0;}
+.footer-hd{border-top:1px solid #999;border-bottom:1px solid #999;padding:0.5em 0;}
+.footer-hd ul{position:relative;}
+.footer-hd ul::before{content:'';display:block;width:1px;height:12px;background-color:#999;position:absolute;left:60%;top:4px;}
+.footer-hd li{float:left;width:40%;font-weight:900;text-align:center;}
+.footer-hd li:first-child{width:60%;}
+.footer-contents{padding:1em 0.5em;background-color:#ccc;}
+.footer-nav{margin-bottom:1em;}
+.footer-nav li{float:left;width:33.333333%;margin-bottom:6px;text-align:center;position:relative;}
+.footer-nav li.wid50{width:50%;}
+.footer-nav li::after{content:'';display:block;width:1px;height:10px;background-color:#999;position:absolute;right:0;top:6px;}
+.footer-nav li:nth-child(3n)::after,.footer-nav li:last-child::after{display:none;}
+.address{font-style:normal;font-size:12px;}
+.address p{margin:0.2em 0;}
